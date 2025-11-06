@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+test = "test"
+libs = ["lib"]
+solc_version = "0.8.20"
+
+# Optimizer settings
+optimizer = true
+optimizer_runs = 200
+
+# Gas reporting enabled
+gas_reports = ["*"]
+
+# Verbose output for debugging
+verbosity = 3
+
+# Fork testing notes:
+# Tests read RPC_URL and BLOCK_NUMBER from .env
+# Block 23727881 is pinned for reproducibility

@@ -1,0 +1,34 @@
+# Foundry
+cache/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (users run 'forge install')
+lib/
+
+# Build artifacts
+artifacts/
+build/
+
+# Logs
+*.log
+
+# Node (if used)
+node_modules/
+package-lock.json
+yarn.lock

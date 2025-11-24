@@ -2,7 +2,7 @@
 src = "src"
 test = "test"
 libs = ["lib"]
-solc_version = "0.8.20"
+solc_version = "0.8.25"
 
 # Optimizer settings
 optimizer = true
@@ -14,6 +14,11 @@ gas_reports = ["*"]
 # Verbose output for debugging
 verbosity = 3
 
+# Remappings for forge-std
+remappings = [
+    "forge-std/=lib/forge-std/src/",
+]
+
 # Fork testing notes:
 # Tests read RPC_URL and BLOCK_NUMBER from .env
-# Block 23727881 is pinned for reproducibility
+# Block 23868000 is pinned for reproducibility
